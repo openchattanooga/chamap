@@ -1,4 +1,4 @@
-# ChaMap - 
+# ChaMap
 One beautifully designed free outdoor basemap for the Chattanooga region. 
 
 ## Contribute
@@ -13,4 +13,4 @@ Not only is the basemap open for anyone to improve, but you the design is also o
 #### 4. Make it Mobile
 Contribute to the [iPhone](https://github.com/openchattanooga/chamap-iphone-app) or [Andriod](https://github.com/openchattanooga/chamap-andriod-app) mobile app development. 
 
-
+Project built with love from [Open Chattanooga](http://openchattanooga.com/).
