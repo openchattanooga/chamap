@@ -12,7 +12,6 @@
     </style>
 </head>
 <body>
-
 <div id='map'></div>
 <script>
 mapboxgl.accessToken = 'pk.eyJ1IjoidDllciIsImEiOiJxeUZmTURjIn0.ZHJTbn3yh5fAcYd6GV0vjQ';
@@ -26,8 +25,9 @@ if (!mapboxgl.supported()) {
         center: [-85.30, 35.04], // starting position
         zoom: 10 // starting zoom
     });
+
+    map.addControl(new mapboxgl.Geolocate({position: 'bottom-left'})); // position is optional
 }
 </script>
-
 </body>
 </html>
