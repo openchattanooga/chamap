@@ -27,6 +27,7 @@ if (!mapboxgl.supported()) {
     });
 
     map.addControl(new mapboxgl.Geolocate({position: 'bottom-left'})); // position is optional
+    map.addControl(new mapboxgl.Navigation());
 }
 </script>
 </body>
