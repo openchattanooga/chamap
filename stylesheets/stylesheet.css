@@ -18,13 +18,8 @@ a {
 .btn {
   display: inline-block;
   margin-bottom: 1rem;
-<<<<<<< HEAD
   color: rgba(255, 255, 255, 0.7);
   background-color: rgba(255, 0, 0, 0.6);
-=======
-  color: rgba(255, 0, 0, 0.7);
-  background-color: rgba(255, 255, 255, 0.08);
->>>>>>> origin/gh-pages
   border-color: rgba(255, 255, 255, 0.2);
   border-style: solid;
   border-width: 1px;
