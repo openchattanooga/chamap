@@ -20,3 +20,6 @@ sass:
   style: :compressed
 
 exclude: ['Gemfile', 'Gemfile.lock', 'LICENSE', 'README.md']
+
+# Site specific stuff
+mapboxgl_access_token: 'pk.eyJ1IjoidDllciIsImEiOiJxeUZmTURjIn0.ZHJTbn3yh5fAcYd6GV0vjQ'
