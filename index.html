@@ -2,22 +2,39 @@
 layout: default
 ---
 
-<div class="home">
+<h3>
+  <a id="why" class="anchor" href="#why" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Why
+</h3>
 
-  <h1 class="page-heading">Posts</h1>
+<p>Because the number one outdoor city in america deserves the best outdoor map in america. Currently most organizations maintain their maps as images or PDFs which makes them inaccessible to both potential users and developers. Chattanooga needs one map to rule them all so that everyone has access to one amazingly designed outdoor map.</p>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+<h3>
+  <a id="what" class="anchor" href="#what" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>What
+</h3>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+<p>An open (free) beautiful basemap designed specifically for outdoor activities. This map would be free to use on websites and mobile apps. This map would be created, designed and maintained by the community for the broader community as a whole. </p>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+<h3>
+  <a id="howtocontribute" class="anchor" href="#howtocontribute" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>How to Contribute
+</h3>
 
-</div>
+<p>There are three main ways to contribute to the project.</p>
+
+<ul>
+  <li><a href="https://github.com/openchattanooga/chamap-design">Contribute</a> to the basemap design.</li>
+  <li><a href="https://github.com/openchattanooga/chamap">Contribute</a> to the map tools and documentation.</li>
+  <li><a href="http://www.openstreetmap.org/#map=12/35.0696/-85.3078&layers=C">Improve</a> the basemap features by editing existing or adding new outdoor recreation facilites in OpenStreetMap</li>
+</ul>
+
+<h3>
+  <a id="howtouse" class="anchor" href="#howtouse" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>How to Use
+</h3>
+
+<p>There are several ways you can use the map.</p>
+<ul>
+  <li>View the basemap online.</li>
+  <li>Integrate the map into your website.</li>
+  <li>Use one of our mobile apps and take the maps outdoors!</li>
+</ul>
+
+<a href="http://openchattanooga.com/chamap/map" class="btn">Take Me To The Map!</a>
