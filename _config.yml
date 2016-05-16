@@ -19,4 +19,4 @@ markdown: kramdown
 sass:
   style: :compressed
 
-exclude: ['Gemfile', 'Gemfile.lock']
+exclude: ['Gemfile', 'Gemfile.lock', 'LICENSE', 'README.md']
