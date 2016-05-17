@@ -1,0 +1,25 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: chamap
+email: brigade@openchattanooga.com
+description: An open (free) beautiful basemap designed specifically for outdoor activities. This map would be free to use on websites and mobile apps. This map would be created, designed and maintained by the community for the broader community as a whole.
+url: "http://openchattanooga.com/chamap"
+twitter_username: openchattanooga
+github_username:  openchattanooga
+
+# Build settings
+markdown: kramdown
+
+sass:
+  style: :compressed
+
+exclude: ['Gemfile', 'Gemfile.lock', 'LICENSE', 'README.md', 'mappingguide.md']
+
+# Site specific stuff
+mapboxgl_access_token: 'pk.eyJ1IjoidDllciIsImEiOiJxeUZmTURjIn0.ZHJTbn3yh5fAcYd6GV0vjQ'
