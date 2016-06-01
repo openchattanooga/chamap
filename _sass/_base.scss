@@ -1,5 +1,12 @@
 * {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
+
+// Make images responsive
+img {
+  max-width: 100%;
+  height: auto;
+}
 
 body {
   padding: 0;
